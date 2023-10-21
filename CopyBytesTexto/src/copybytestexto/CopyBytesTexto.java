@@ -1,12 +1,11 @@
 package copybytestexto;
-
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
-public class CopyBytesTexto {
+public class Copybytestexto {
 
     public static void main(String[] args) {
+        
         // Nombre de los archivos de entrada y salida
         String inputFile = "texto1.txt";
         String outputFile = "texto2.txt";
@@ -45,5 +44,8 @@ public class CopyBytesTexto {
                 e.printStackTrace();
             }
         }
+        
+        
     }
 }
+

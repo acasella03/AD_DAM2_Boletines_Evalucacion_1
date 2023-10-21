@@ -47,5 +47,5 @@ public class PrimitiveWriteUTF {
             e.printStackTrace();
         }
     }
-    
+
 }

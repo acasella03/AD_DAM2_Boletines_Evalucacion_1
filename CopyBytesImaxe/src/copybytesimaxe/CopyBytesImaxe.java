@@ -1,12 +1,11 @@
 package copybytesimaxe;
-
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
-public class CopyBytesImaxe {
+public class Copybytesimaxe {
 
     public static void main(String[] args) {
+        
         // Nombre de los archivos de entrada y salida
         String inputFile = "foto.jpg";
         String outputFile = "foto2.jpg";
@@ -45,5 +44,8 @@ public class CopyBytesImaxe {
                 e.printStackTrace();
             }
         }
+        
+        
     }
 }
+

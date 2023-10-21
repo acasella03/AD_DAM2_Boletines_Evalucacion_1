@@ -7,6 +7,7 @@ import java.io.IOException;
 public class CopyCaracteres {
 
     public static void main(String[] args) {
+        
         String archivoEntrada = "texto1.txt";
         String archivoSalida = "texto2.txt";
 

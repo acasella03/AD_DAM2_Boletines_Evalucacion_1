@@ -69,16 +69,18 @@ public class PrimitiveUTFChars {
 
             }
 
+            System.out.println("Leemos la cadena en char en el archivo: " + cadenaLeidaChar);
+            
             int bytesRestantes2 = dataInputStream.available();
             System.out.println("Quedan: " + bytesRestantes2 + " bytes por leer");
 
-            System.out.println("Leemos la cadena en char en el archivo: " + cadenaLeida);
+            System.out.println("Leemos la cadena en UTF: " + cadenaLeida);
 
             System.out.println("Ya no queda nada por leer");
 
         } catch (IOException e) {
             e.printStackTrace();
         }
+
     }
-    
 }
