@@ -17,6 +17,10 @@ public class BaseRelacionalB {
         
         orden.listaProdutos();
         
+        orden.insireProduto("p4", "martelo", 20, Date.valueOf("2020-08-01"));
+        
+        orden.listaProdutos();
+        
         orden.eliminaProduto("p3");
         
         orden.listaProdutos();
