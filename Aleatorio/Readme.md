@@ -1,31 +1,43 @@
-exercicio 11 
-aleatorio
+# Exercicio 11: Aleatorio
 
-Gardar os contidos dos tres arrays seguintes nun ficheiro aleatorio (creado en modo lectura escritura)  tendo en conta que cada tres elementos que  ocupan a mesma posicion nos arrays representan un codigo unha descricion e un prezo:
+Guardar los contenidos de los tres arrays siguientes en un fichero aleatorio (creado en modo lectura escritura)  teniendo en cuenta que cada tres elementos que ocupan la misma posición en los arrays representan un código, una descripción y un precio:
+
+```
         String[] codes={"p1","p2","p3"};
         String[] descricion ={"parafusos","cravos ","tachas"};
         int[] prices ={3,4,5};
-      
-      nota: ter en conta que asignaremos unha lonxitude fixa a cada rexistro
-      así para o codigo asignaremos 3 caracteres(6 bytes), para a descrición 10caracteres(20bytes),  e o prezo por ser un  enteiro terá asignados 4 bytes, sendo o tamaño total do rexistro de 30 bytes
-      
-      nota IMPORTANTE: a clase a usar e RandomAcessFile(obxecto File, "rw")e os seus metodos para escritura e lectura de tipos primitivos de datos (writeChars(..)  , writeInt(..) , readChar()..readInt()) 
-      
-Antes de gravar os datos dun rexistro deberá  utilizarse   un método que encha cos espazos que faltan os campos   codigo e descricion ata completar as lonxitudes de ditos campos cun caracter calquera.
-  Pista : A clase String ten un metodo denonimado format que permite dar formato a unha cadea : String x= String.format("%" + width + "s", t).replace(' ','0') 
-onde: 
-	width:   e o ancho final da cadea en numero de caracteres
-         t  :        e a cadea  
-	"%" : enche con blancos pola esquerda  (con "%-" encheria con blancos pola dereita)
-se ademais lle aplicamos ao metodo format  o metodo   replace(' ', '0')     cambiara os blancos por ceros ( esto e interesante se nun primeiro momento queremos ver o efecto de aplicar ‘format’ porque os blancos non se ven na impresión pero os cero si)
+```
 
-        
-Unha vez almacenados os tres rexistros no ficheiro aleatorio deberemos ler e amosar o contido dos campos do rexistro que ocupa a posicion numero 2  utilizando o metodo seek(int n  ) da clase RandomAccessFile que permite posicionarnos no byte indicado dentro de dito ficheiro.
-
-Ter en conta que ao ler o rexistro deberemos voltar a separar os seus contidos e quitarlle os blancos ás cadeas de texto para poder poder  cargar correctamente ditos valores en variables java  adecuadas ( String)  excepto o valor que foi grabado con enteiro que simplemente debe ser convertido a enteiro mediante csteo.
-
-      e decir o resultado da consulta  deberia amosarse algo parecido a isto:
+[!NOTE] 
+Tener en cuenta que asignaremos una longitud fija a cada registro, así para el código asignaremos 3 caracteres(6 bytes), para la descripción 10 caracteres(20bytes),  y el precio por ser un  entero tendrá asignado 4 bytes, siendo el tamaño total del registro de 30 bytes.
       
-       p2
-        cravos 
-      4
+[!IMPORTANT] 
+La clase a usar es **RandomAcessFile** (objecto File, "rw") y para sus métodos de escritura y lectura de tipos primitivos de datos (writeChars(..)  , writeInt(..) , readChar()..readInt()) 
+      
+Antes de grabar los datos de un registro deberá utilizarse un método que complete los espacios en blanco que faltan en los campos código y descripción hasta completar las longitudes de dichos campos con un caracter cualquiera.
+
+**Pista:** La clase String tiene un método denonimado format que permite dar formato a una cadena: 
+```
+    String x= String.format("%" + width + "s", t).replace(' ','0')
+``` 
+Donde:
+
+`width` : Es el ancho final de la cadena en número de caracteres
+<br>
+`t` : Es la cadena
+<br>
+`"%"` : Llena con espacios en blanco a la izquierda (con `"%-"` llena con espacios en blanco a la derecha)
+<br>
+Si además le aplicamos al método `format` el método `replace(' ', '0')` cambiará los blancos por ceros **(ésto es interesante si en un primer momento queremos ver el efecto de aplicar `format` porque los blancos no se ven en la impresión pero los ceros si)**
+
+Una vez almacenados los tres registros en el fichero aleatorio debemos leer y mostrar el contenido de los campos del registro que ocupa a posición número 2 utilizando el método `seek(int n)` de la clase **RandomAccessFile** que permite posicionarnos en el byte indicado dentro de dicho fichero.
+
+Tener en cuenta que al leer el registro tendremos que volver a separar sus contenidos y eliminar los espacios en blanco de las cadenas de texto para poder cargar correctamente dichos valores en las variables java apropiadas (String) excepto el valor que fue grabado con un número entero que simplemente debe ser convertido a un número entero usando casteo.
+
+Es decir el resultado de la consulta debería mostrarse algo parecido a ésto:
+
+```
+p2
+cravos 
+4
+```
