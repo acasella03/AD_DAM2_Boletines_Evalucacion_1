@@ -8,11 +8,11 @@ Guardar los contenidos de los tres arrays siguientes en un fichero aleatorio (cr
         int[] prices ={3,4,5};
 ```
 
-[!NOTE] 
-Tener en cuenta que asignaremos una longitud fija a cada registro, así para el código asignaremos 3 caracteres(6 bytes), para la descripción 10 caracteres(20bytes),  y el precio por ser un  entero tendrá asignado 4 bytes, siendo el tamaño total del registro de 30 bytes.
+> [!NOTE] 
+> Tener en cuenta que asignaremos una longitud fija a cada registro, así para el código asignaremos 3 caracteres(6 bytes), para la descripción 10 caracteres(20bytes),  y el precio por ser un  entero tendrá asignado 4 bytes, siendo el tamaño total del registro de 30 bytes.
       
-[!IMPORTANT] 
-La clase a usar es **RandomAcessFile** (objecto File, "rw") y para sus métodos de escritura y lectura de tipos primitivos de datos (writeChars(..)  , writeInt(..) , readChar()..readInt()) 
+> [!IMPORTANT] 
+> La clase a usar es **RandomAcessFile** (objecto File, "rw") y para sus métodos de escritura y lectura de tipos primitivos de datos (writeChars(..)  , writeInt(..) , readChar()..readInt()) 
       
 Antes de grabar los datos de un registro deberá utilizarse un método que complete los espacios en blanco que faltan en los campos código y descripción hasta completar las longitudes de dichos campos con un caracter cualquiera.
 
