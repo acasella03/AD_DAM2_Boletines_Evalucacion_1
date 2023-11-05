@@ -2,15 +2,15 @@
 
 1. Disponemos de dos tablas denominadas **composicion** y **componentes** (en el script [taboasexameb.sql](./taboasexameb.sql)).
 
-Los campos de la tabla **composicion** son:<br>
-Código del plato (codp)<br>
-Código de un componente del plato<br>
-Peso de dicho componente en dicho plato
+    Los campos de la tabla **composicion** son:<br>
+    Código del plato (codp)<br>
+    Código de un componente del plato<br>
+    Peso de dicho componente en dicho plato
 
-Los campos de la tabla **componentes** son:<br>
-Código de un componente<br>
-Nombre del componente<br>
-Contenido en grasa por cada 100gr de dicho componente
+    Los campos de la tabla **componentes** son:<br>
+    Código de un componente<br>
+    Nombre del componente<br>
+    Contenido en grasa por cada 100gr de dicho componente
 
 2. Disponemos de una clase java denominada [Platos.java](./src/exa15brevep/Platos.java) que implementa la interface **Serializable**.
 
@@ -36,7 +36,7 @@ platocarnico2
 graxatotal:160
 ```
 > [!IMPORTANT]
-> La grasa correspondente a cada componente del plato se calcula así:
+> La grasa correspondiente a cada componente del plato se calcula así:
 > 
 >                   graxa_parcial = peso / 100 * graxa
 > 
