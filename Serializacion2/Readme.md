@@ -17,5 +17,6 @@ El objetivo como siempre es que, después de escritos, puedas leerlos desde dich
 > Lo que podemos hacer es guardar un **null** justo antes de lanzar el `close()` de esta manera **cuando lea los objetos puedo preguntar si el objeto leído es un null para detener el bucle de lectura**.
 >
 > Otra cosa que podemos hacer es usar el método `available()` para ver cuanto queda por leer del fichero, si no queda nada finalizamos y ya está.
-> 
-> [!WARNING] Pero **¡CUIDADO!**:  el método `available()` de la clase **ObjectInputStream** NO devuelve el número de bytes que quedan por leer si no el número de bytes bloqueados, pero **PODEMOS usar el método `available()` de la clase ***FileInputStream*** porque al fin y al cabo **ObjectInputStream** está leyendo los objetos serializados a través de dicha clase**.
+ 
+> [!WARNING] 
+> Pero **¡CUIDADO!**:  el método `available()` de la clase **ObjectInputStream** NO devuelve el número de bytes que quedan por leer si no el número de bytes bloqueados, pero **PODEMOS usar el método `available()` de la clase ***FileInputStream*** porque al fin y al cabo **ObjectInputStream** está leyendo los objetos serializados a través de dicha clase**.
