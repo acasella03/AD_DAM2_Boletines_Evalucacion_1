@@ -80,9 +80,10 @@
 
 ### Se pide:
 
+> [!TIP]
+> Recordar que cada objeto de la clase **detectados.java** contiene la información de un hongo encontrado en un área, es decir que **los objetos de la clase 'detectados.java' contenidos en el fichero serializado 'detectados' serán nuestros objetos de referencia**.
+
 1. Por cada hongo encontrado:
-    > [!TIP]
-    > Recordar que cada objeto de la clase **detectados.java** contiene la información de un hongo encontrado en un área, es decir que **los objetos de la clase 'detectados.java' contenidos en el fichero serializado 'detectados' serán nuestros objetos de referencia**. 
 
     1.1. Aumentar en 1 el atributo **numerofungos** de la fila correspondiente de la **tabla areas**.
     
