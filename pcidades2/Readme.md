@@ -31,71 +31,72 @@ Se dispone de una la clase java [Listaz2.java](./src/pcidades2/Listaz2.java) par
 > Si no trabajas con netbeans recuerda que debes crear un paquete que contengan tus clases. Dicho paquete debe llamarse exactamente pcidades2 sino no podrás leer el fichero serializado listaz2.
 
 ## Ficheros y tablas poporcionadas:
-| Fichero delimitado zonas.txt  |
-| :---                          |
-| z1_calvario_2300              |
-| z2_teis_2100                  |
-| z3_rosalia_1000               |
-| z4_centro_3000                |
-| z5_principe_4000              |
-| z6_lavadores_2000             |
-| z7_travesia_1000              |
-| z8_traviesas_1600             |
-| z9_navia_1600                 |
-| z10_bouzas_3000               |
-| z11_cabral_1400               |
+
+**Fichero delimitado zonas.txt:** <br>
+z1_calvario_2300 <br>
+z2_teis_2100 <br>
+z3_rosalia_1000 <br>
+z4_centro_3000 <br>
+z5_principe_4000 <br>
+z6_lavadores_2000 <br>
+z7_travesia_1000 <br>
+z8_traviesas_1600 <br>
+z9_navia_1600 <br>
+z10_bouzas_3000 <br>
+z11_cabral_1400 <br>
 <br>
 
-| Tabla | propiedades: |
-| ---      | ---       |
-| **codp** | **codz**  | 
-| p1       | z2        |
-| p2       | z3        |
-| p3       | z4        |
-| p4       | z5        |
-| p5       | z1        |
-| p6       | z8        |
-| p7       | z9        |
-| p8       | z8        |
-| p9       | z2        |
-| p10      | z3        |
-| p11      | z7        |
-| p12      | z3        |
-| p13      | z2        |
-| p14      | z8        |
-| p15      | z1        |
+**Tabla propiedades:**
+| codp | codz  |
+| ---  | ---   |
+| p1   | z2    |
+| p2   | z3    |
+| p3   | z4    |
+| p4   | z5    |
+| p5   | z1    |
+| p6   | z8    |
+| p7   | z9    |
+| p8   | z8    |
+| p9   | z2    |
+| p10  | z3    |
+| p11  | z7    |
+| p12  | z3    |
+| p13  | z2    |
+| p14  | z8    |
+| p15  | z1    |
+<br>
 
-| Tabla  | pisos:      |      |       |       |
-| ---    | ---         | ---  | ---   | ---   |
-|**codp**|**enderezo** |**m2**|**nif**|**ano**|
-| p1     | aaa         |  60  | 368l  | 1991  |
-| p2     | bbb         |  70  | 3611a | 1992  |
-| p3     | ccc         |  80  | 368l  | 2000  |
-| p4     | ddd         |  65  | 3616c | 2001  |
-| p5     | aaa         | 100  | 3614m | 2010  |
-| p6     | bbb         |  50  | 3611a | 2019  |
-| p7     | zzz         |  75  | 3612u | 2021  |
-| p8     | xxx         |  60  | 3611a | 1991  |
-| p9     | rrr         |  80  | 3612u | 1990  |
-| p10    | www         |  90  | 365a  | 1995  |
-| p11    | yyy         | 120  | 365a  | 1996  |
-| p12    | ddd         | 200  | 365a  | 2005  |
-| p13    | sss         | 100  | 362b  | 2015  |
-| p14    | aaa         |  65  | 362b  | 2020  |
-| p15    | hhh         |  60  | 363c  | 1989  |
-| p16    | yyy         |  70  | 364d  | 1988  |
-| p17    | mmm         |  75  | 364d  | 2003  |
-| p18    | eee         |  80  | 3611a | 2007  |
-| p19    | bbb         |  90  | 364d  | 2010  |
-| p20    | ccc         | 100  | 3611a | 2013  |
-| p21    | www         |  60  | 367g  | 2014  |
-| p22    | lll         |  40  | 369f  | 2018  |
-| p23    | mmm         |  30  | 369f  | 2021  |
-| p24    | sss         |  90  | 3614m | 2022  |
-| p25    | nnn         |  55  | 367g  | 1995  |
-| p26    | ppp         |  65  | 369f  | 2001  |
-| p27    | sss         |  75  | 3614m | 2003  |
-
+**Tabla pisos:**
+| codp | enderezo |  m2  |  nif  |  ano  |
+| ---  | ---      | ---  | ---   | ---   |
+| p1   | aaa      |  60  | 368l  | 1991  |
+| p2   | bbb      |  70  | 3611a | 1992  |
+| p3   | ccc      |  80  | 368l  | 2000  |
+| p4   | ddd      |  65  | 3616c | 2001  |
+| p5   | aaa      | 100  | 3614m | 2010  |
+| p6   | bbb      |  50  | 3611a | 2019  |
+| p7   | zzz      |  75  | 3612u | 2021  |
+| p8   | xxx      |  60  | 3611a | 1991  |
+| p9   | rrr      |  80  | 3612u | 1990  |
+| p10  | www      |  90  | 365a  | 1995  |
+| p11  | yyy      | 120  | 365a  | 1996  |
+| p12  | ddd      | 200  | 365a  | 2005  |
+| p13  | sss      | 100  | 362b  | 2015  |
+| p14  | aaa      |  65  | 362b  | 2020  |
+| p15  | hhh      |  60  | 363c  | 1989  |
+| p16  | yyy      |  70  | 364d  | 1988  |
+| p17  | mmm      |  75  | 364d  | 2003  |
+| p18  | eee      |  80  | 3611a | 2007  |
+| p19  | bbb      |  90  | 364d  | 2010  |
+| p20  | ccc      | 100  | 3611a | 2013  |
+| p21  | www      |  60  | 367g  | 2014  |
+| p22  | lll      |  40  | 369f  | 2018  |
+| p23  | mmm      |  30  | 369f  | 2021  |
+| p24  | sss      |  90  | 3614m | 2022  |
+| p25  | nnn      |  55  | 367g  | 1995  |
+| p26  | ppp      |  65  | 369f  | 2001  |
+| p27  | sss      |  75  | 3614m | 2003  |
+<br>
 
 ## Resultado del proyecto:
 
