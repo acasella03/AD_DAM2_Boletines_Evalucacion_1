@@ -18,6 +18,6 @@
     <product>
         <codigo></codigo>
         <descripcion></descripcion>
-        <precio>0.0</precio>
+        <precio>null</precio>
     </product>
 </products>

@@ -14,7 +14,7 @@ import serializacion2.Product;
 public class XMLwriter {
 
     public static void main(String[] args) {
-        String nombreArchivoEntrada = "productos.txt";
+        String nombreArchivoEntrada = "../Serializacion2/productos.txt";
         String nombreArchivoSalida = "products.xml";
 
         ArrayList<Product> productos = new ArrayList<>();
