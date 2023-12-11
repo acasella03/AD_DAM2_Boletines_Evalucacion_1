@@ -11,7 +11,7 @@ public class XMLReader {
 
     public static void main(String[] args) {
         // Ruta al archivo XML
-        String nombreArchivoEntrada = "products.xml";
+        String nombreArchivoEntrada = "../XMLwriter/products.xml";
 
         // ArrayList para almacenar los objetos Product
         ArrayList<Product> productos = new ArrayList<>();
