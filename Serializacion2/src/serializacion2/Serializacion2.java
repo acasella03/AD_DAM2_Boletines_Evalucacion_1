@@ -24,7 +24,7 @@ public class Serializacion2 {
         // Crear y escribir objetos en el archivo
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(nombreArchivo))) {
             for (int i = 0; i < cod.length; i++) {
-                Product producto = new Product(cod[i], desc[i], prezo[i]);
+                Product producto = new Product(cod[i], desc[i], (double)prezo[i]);
                 oos.writeObject(producto);
             }            
             oos.writeObject(productoNulo);
